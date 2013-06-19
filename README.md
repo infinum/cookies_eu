@@ -41,7 +41,7 @@ If you whish to customize the syle of the div the classes are:
     .cookies_eu_ok        // button
     .cookies_eu_link      // link
 
-## Sample of cookie info
+## Sample of cookie info (in [haml form](/app/views/cookies_eu/cookies_info.html.haml))
 
 ### COOKIES
 
