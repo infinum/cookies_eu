@@ -4,7 +4,7 @@
 $(document).ready( function(){
   $('.cookies_eu_ok').click(function(e){
     e.preventDefault();
-    $.cookie('consented', 'true');
+    $.cookie('cookie_eu_consented', 'true');
     $(this).parent().remove();
   });
 });
