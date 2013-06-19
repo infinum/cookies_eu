@@ -1,9 +1,10 @@
+<% link_local = link || nil %>
 <% if cookies['consented'] != 'true' %>
   <div class="cookies_eu">
     <span><%= t('cookies_eu.cookies_text') %></span>
     <button class="cookies_eu_ok"> <%= t('cookies_eu.ok') %> </button>
-    <% if link.present? %>
-      <a href="<%= link %>"> <%= t('cookies_eu.learn_more') %> </a>
+    <% if link_local.present? %>
+      <a href="<%= link_local %>"> <%= t('cookies_eu.learn_more') %> </a>
     <% end %>
   </div>
 <% end %>
