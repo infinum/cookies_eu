@@ -1,6 +1,6 @@
 # CookiesEu
 
-TODO: Write a gem description
+Gem to add cookie consent to rails application
 
 ## Installation
 
