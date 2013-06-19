@@ -85,7 +85,7 @@ Rather than blocking all cookies, you can choose to only block third-party cooki
 
 #### How to manage cookies on your PC
 
-To enable cookies our website, follow the steps below.
+To enable cookies on our website, follow the steps below.
 
 ##### Google Chrome
 
@@ -113,7 +113,7 @@ To enable cookies our website, follow the steps below.
 
 #### How to manage cookies on your Mac
 
-To enable cookies our website, follow the steps below.
+To enable cookies on our website, follow the steps below.
 
 ##### Microsoft Internet Explorer 5.0 on OSX
 
