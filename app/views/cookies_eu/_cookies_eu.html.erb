@@ -1,5 +1,5 @@
-<%= cookie['consented'] %>
-<% if cookie['consented'] != 'true' %>
+<%= cookies['consented'] %>
+<% if cookies['consented'] != 'true' %>
   <div class="cookies_eu" style="background: <%= CookiesEu::BACKGROUND %>; ">
     <span><%= t('cookies_eu.span_text') %></span>
     <button class="cookies_eu_ok"></button>
