@@ -1,8 +1,7 @@
-<%= cookies['consented'] %>
 <% if cookies['consented'] != 'true' %>
-  <div class="cookies_eu" style="background: <%= CookiesEu::BACKGROUND %>; ">
+  <div class="cookies_eu">
     <span><%= t('cookies_eu.span_text') %></span>
     <button class="cookies_eu_ok"> <%= t('cookies_eu.ok') %> </button>
-    <a href="<%= CookiesEu::COOKIES_LINK %>"> <%= t('cookies_eu.learn_more') %> </a>
+    <a href="<%= link %>"> <%= t('cookies_eu.learn_more') %> </a>
   </div>
 <% end %>
