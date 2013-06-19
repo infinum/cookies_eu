@@ -1,8 +1,10 @@
 //= require jquery
 //= require jquery.cookie
 
-$('body').on('click', '.cookies_eu_ok', function(e){
-  e.preventDefault();
-  $.cookie('consented', 'true');
-  $(this).parent().remove();
+$(document).ready( function(){
+  $('.cookies_eu_ok').click(function(e){
+    e.preventDefault();
+    $.cookie('consented', 'true');
+    $(this).parent().remove();
+  });
 });
