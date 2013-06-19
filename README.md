@@ -87,25 +87,25 @@ Rather than blocking all cookies, you can choose to only block third-party cooki
 
 To enable cookies our website, follow the steps below.
 
-Google Chrome
+##### Google Chrome
 
 1. Click "Tools" at the top of your browser and select "Settings".
 2. Click "Show advanced settings", scroll down to the section "Privacy" and click "Content Settings."
 3. Select "Allow local data to be set". To only acept first-party cookies, check the box next to "Block all third-party cookies without exception"
 
-Microsoft Internet Explorer 6.0, 7.0, 8.0, 9.0
+##### Microsoft Internet Explorer 6.0, 7.0, 8.0, 9.0
 
 1. Click "Tools" at the top of your browser and select "Internet Options", then click the "Privacy" tab.
 2. Check that the level of your privacy is set to Medium or lower, which will allow the use of cookies in your browser.
 3. If set above medium level it will prevent the use of cookies.
 
-Mozilla Firefox
+##### Mozilla Firefox
 
 1. Click "Tools" at the top of your browser and select "Options".
 2. Then select the "Privacy" icon.
 3. Click the "Cookies" and select "Allow pages to create a cookie."
 
-Safari
+##### Safari
 
 1. Click the gear icon at the top of your browser and select "Settings".
 2. Click the "Privacy" tab, then select the option "Disable the use of cookies by third parties and advertising cookies."
@@ -115,25 +115,25 @@ Safari
 
 To enable cookies our website, follow the steps below.
 
-Microsoft Internet Explorer 5.0 on OSX
+##### Microsoft Internet Explorer 5.0 on OSX
 
 1. Click on "Explorer" at the top of your browser and select "Settings".
 2. Scroll down to the "Cookies" section in the "Received Files".
 3. Select "Do not ask."
 
-Safari on OSX
+##### Safari on OSX
 
 1 Click "Safari" on the top of your browser and select "Settings".
 2 Click the "Privacy" and then "Enable cookies."
 3 Select "only the pages you have visited."
 
-Mozilla and Netscape on OSX
+##### Mozilla and Netscape on OSX
 
 1 Click "Mozilla" or "Netscape" at the top of your browser and select "Settings".
 2 Scroll down to the "Cookies" under "Privacy & Security".
 3 Select "Allow cookies only to the original site."
 
-Opera
+##### Opera
 
 1 Click "Menu" on the top of your browser and select "Settings".
 2 Then select "Options" tab and the "Advanced".
