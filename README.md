@@ -18,7 +18,28 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+In application.js add
+
+    //= require cookies_eu
+
+In application.css add
+
+    // = require cookies_eu
+
+In your view add
+
+    = render 'cookies_eu/cookies_eu'
+
+You can add a link parameter to link to your cookies explanation page (you have to create the page and controller for this)
+
+    = render 'cookies_eu/cookies_eu', link: '/cookies'
+
+
+If you whish to customize the syle of the div the classes are:
+
+    .cookies_eu           // main div
+    .cookies_eu_ok        // button
+    .cookies_eu_link      // link
 
 ## Contributing
 
