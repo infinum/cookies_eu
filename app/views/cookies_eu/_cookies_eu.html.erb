@@ -1,9 +1,11 @@
 <% if cookies['cookie_eu_consented'] != 'true' %>
-  <div class="cookies_eu">
-    <span><%= t('cookies_eu.cookies_text') %></span>
-    <button class="cookies_eu_ok"> <%= t('cookies_eu.ok') %> </button>
+  <div class="cookies-eu">
+    <span class="cookies-eu-content-holder"><%= t('cookies_eu.cookies_text') %></span>
+    <span class="cookies-eu-button-holder">
+    <button class="cookies-eu-ok"> <%= t('cookies_eu.ok') %> </button>
     <% if defined?(link).present? %>
-      <a href="<%= link %>" class="cookies_eu_link"> <%= t('cookies_eu.learn_more') %> </a>
+      <a href="<%= link %>" class="cookies-eu-link"> <%= t('cookies_eu.learn_more') %> </a>
     <% end %>
+    </span>
   </div>
 <% end %>
