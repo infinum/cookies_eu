@@ -1,6 +1,7 @@
-//= require_tree .
 //= require jquery
 //= require jquery.cookie
+//= require jqurey.mobile.custom
+//= require jqurey.mobile.custom.structure
 
 $(document).ready( function(){
   $('.cookies-eu-ok').click(function(e){
