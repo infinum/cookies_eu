@@ -40,3 +40,18 @@
     }
   }
 }
+
+@media (max-width: 767px){
+  .cookies-eu{
+    position: static;
+    font-size: 12px;
+    line-height: 20px;
+    .cookies-eu-content-holder{
+      line-height: 16px;
+      padding: 5px 20px;
+    }
+    .cookies-eu-button-holder{
+      padding-bottom: 5px;
+    }
+  }
+}
