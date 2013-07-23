@@ -1,6 +1,4 @@
 //= require jquery
-//= require jquery.cookie
-//= require jquery.mobile.custom
 
 $(document).ready( function(){
   $('.cookies-eu-ok').click(function(e){
