@@ -41,6 +41,10 @@ If you whish to customize the syle of the div the classes are:
     .cookies_eu_ok        // button
     .cookies_eu_link      // link
 
+## Turbolinks NOT supported
+
+Please use [jquery.turbolinks gem](https://github.com/kossnocorp/jquery.turbolinks)
+
 ## Sample of cookie info (in [haml form](/app/views/cookies_eu/cookies_info.html.haml))
 
 ### COOKIES
