@@ -24,7 +24,7 @@ In application.js add
 
 In application.css add
 
-    // = require cookies_eu
+    *= require cookies_eu
 
 In your view add
 
