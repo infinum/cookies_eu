@@ -2,6 +2,16 @@
 
 Gem to add cookie consent to rails application
 
+## Supported languages
+
+* English
+* German
+* Spanish
+* French
+* Croatian
+* Italian
+* Slovenian
+
 ## Installation
 
 Add this line to your application's Gemfile:
