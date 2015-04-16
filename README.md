@@ -11,6 +11,7 @@ Gem to add cookie consent to rails application
 * Croatian
 * Italian
 * Slovenian
+* Dutch
 
 ## Installation
 
