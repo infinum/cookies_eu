@@ -1,4 +1,3 @@
-//= require jquery
 //= require jquery.cookie
 
 $(document).ready( function(){
