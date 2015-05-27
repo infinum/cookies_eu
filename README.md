@@ -17,40 +17,48 @@ Gem to add cookie consent to rails application
 
 Add this line to your application's Gemfile:
 
-    gem 'cookies_eu'
+```ruby
+gem 'cookies_eu'
+```
 
 And then execute:
 
     $ bundle
 
-Or install it yourself as:
+Run the installation generator:
 
-    $ gem install cookies_eu
+    $ bundle exec rails g cookies_eu:install
 
-## Usage
-
-In application.js add
+Or manually add in application.js:
 
     //= require cookies_eu
 
-In application.css add
+And in application.css:
 
     *= require cookies_eu
 
+## Usage
+
 In your view add
 
-    = render 'cookies_eu/cookies_eu'
+```ruby
+= render 'cookies_eu/cookies_eu'
+```
 
 You can add a link parameter to link to your cookies explanation page (you have to create the page and controller for this)
 
-    = render 'cookies_eu/cookies_eu', link: '/cookies'
+```ruby
+= render 'cookies_eu/cookies_eu', link: '/cookies'
+```
 
 
 If you whish to customize the syle of the div the classes are:
 
-    .cookies_eu           // main div
-    .cookies_eu_ok        // button
-    .cookies_eu_link      // link
+```javascript
+.cookies_eu           // main div
+.cookies_eu_ok        // button
+.cookies_eu_link      // link
+```
 
 ## Turbolinks NOT supported
 
