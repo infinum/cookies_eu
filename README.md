@@ -60,7 +60,7 @@ You can add a link parameter to link to your cookies explanation page (you have 
 ```
 
 
-If you whish to customize the syle of the div the classes are:
+If you whish to customize the style of the div the classes are:
 
 ```javascript
 .cookies_eu           // main div
