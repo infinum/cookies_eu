@@ -60,6 +60,11 @@ You can add a link parameter to link to your cookies explanation page (you have 
 = render 'cookies_eu/consent_banner', link: '/cookies'
 ```
 
+You can position the banner on the top or on the bottom, the default is bottom
+
+```ruby
+= render 'cookies_eu/consent_banner', position: 'top'
+```
 
 If you whish to customize the style of the div the classes are:
 
