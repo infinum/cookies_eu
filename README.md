@@ -66,9 +66,11 @@ You can add a link parameter to link to your cookies explanation page (you have 
 If you whish to customize the style of the div the classes are:
 
 ```javascript
-.cookies_eu           // main div
-.cookies_eu_ok        // button
-.cookies_eu_link      // link
+.cookies-eu           // main div
+.cookies-eu-content-holder // content holder
+.cookies-eu-button-holder // button holder
+.cookies-eu-ok        // button
+.cookies-eu-link      // link
 ```
 
 ## Turbolinks NOT supported
