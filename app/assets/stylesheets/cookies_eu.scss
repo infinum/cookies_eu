@@ -1,6 +1,11 @@
 .cookies-eu {
+  &.top {
+    top: 0;
+  }
+  &.bottom {
+    bottom: 0;
+  }
   position: fixed;
-  bottom: 0;
   left: 0;
   line-height: 40px;
   background: #f2f2f2;
@@ -19,8 +24,7 @@
     padding-right: 20px;
 
     .cookies-eu-ok {
-      background-color: #4d90fe;
-      background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+      background: #4d90fe -webkit-linear-gradient(top, #4d90fe, #4787ed);
       border: 1px solid #3079ed;
       border-radius: 2px;
       color: #fff;
@@ -30,7 +34,6 @@
       font-weight: bold;
       height: 24px;
       line-height: 20px;
-      margin-right: 0px;
       min-width: 26px;
       outline: 0;
       padding: 0 11px;
@@ -39,19 +42,18 @@
       margin: 0 5px;
     }
   }
-}
-
-@media (max-width: 767px){
-  .cookies-eu{
-    position: static;
-    font-size: 12px;
-    line-height: 20px;
-    .cookies-eu-content-holder{
-      line-height: 16px;
-      padding: 5px 20px;
-    }
-    .cookies-eu-button-holder{
-      padding-bottom: 5px;
+  @media (max-width: 767px) {
+    & {
+      font-size: 12px;
+      line-height: 20px;
+      .cookies-eu-content-holder {
+        line-height: 16px;
+        padding: 5px 20px;
+      }
+      .cookies-eu-button-holder {
+        padding-bottom: 5px;
+      }
     }
   }
 }
+
