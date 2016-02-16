@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/cookies_eu.svg)](https://badge.fury.io/rb/cookies_eu)
+
 # CookiesEu
 
 Gem to add cookie consent to rails application
