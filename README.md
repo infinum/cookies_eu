@@ -64,6 +64,11 @@ You can add a link parameter to link to your cookies explanation page (you have 
 = render 'cookies_eu/consent_banner', link: '/cookies'
 ```
 
+You can add a target parameter to the link to open in a new tab
+
+```ruby
+= render 'cookies_eu/consent_banner', link: '/cookies', target: '_blank'
+```
 
 If you whish to customize the style of the div the classes are:
 
