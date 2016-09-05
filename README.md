@@ -18,7 +18,7 @@ Gem to add cookie consent to rails application
 * Italian
 * Norwegian
 * Polish
-* Portugese
+* Portuguese
 * Romanian
 * Russian
 * Slovenian
@@ -73,7 +73,7 @@ You can add a target parameter to the link to open in a new tab
 = render 'cookies_eu/consent_banner', link: '/cookies', target: '_blank'
 ```
 
-If you whish to customize the style of the div the classes are:
+If you wish to customize the style of the div the classes are:
 
 ```javascript
 .cookies-eu           // main div
@@ -137,7 +137,7 @@ To enable cookies on our website, follow the steps below.
 
 1. Click "Tools" at the top of your browser and select "Settings".
 2. Click "Show advanced settings", scroll down to the section "Privacy" and click "Content Settings."
-3. Select "Allow local data to be set". To only acept first-party cookies, check the box next to "Block all third-party cookies without exception"
+3. Select "Allow local data to be set". To only accept first-party cookies, check the box next to "Block all third-party cookies without exception"
 
 ##### Microsoft Internet Explorer 6.0, 7.0, 8.0, 9.0
 
