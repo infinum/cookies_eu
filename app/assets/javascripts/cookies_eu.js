@@ -24,7 +24,8 @@ document.addEventListener('DOMContentLoaded', function() {
     setCookie: function() {
       Cookies.set('cookie_eu_consented', true, { path: '/', expires: 365 });
 
-      document.querySelector('.js-cookies-eu').remove();
+      var container = document.querySelector('.js-cookies-eu');
+      container.parentNode.removeChild(container);
     }
   }
 
