@@ -27,13 +27,13 @@ $cookies-eu-mobile: 'max-width: 767px';
     position: initial;
   }
 
-  & &-content-holder {
+  &.content-holder {
     display: inline-block;
 
     padding: 0 20px;
   }
 
-  & &-button-holder {
+  &.button-holder {
     display: inline-block;
 
     .cookies-eu-ok {
