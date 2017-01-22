@@ -25,10 +25,6 @@ Gem to add cookie consent to rails application
 * Spanish
 * Swedish
 
-## Prerequisites
-
-jquery needs to be present in your application.js
-
 ## Installation
 
 Add this line to your application's Gemfile:
