@@ -50,6 +50,12 @@ Or manually add in application.js:
 And in application.css:
 
     *= require cookies_eu
+    
+Or, if you have application.scss:
+
+    @import "cookies_eu";
+
+Remember to restart your server!
 
 ## Usage
 
