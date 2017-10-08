@@ -1,4 +1,4 @@
-<% if cookies['cookie_eu_consented'] != 'true' %>
+<% if cookies && cookies['cookie_eu_consented'] != 'true' %>
   <div class="cookies-eu js-cookies-eu">
     <span class="cookies-eu-content-holder"><%= t('cookies_eu.cookies_text') %></span>
     <span class="cookies-eu-button-holder">
