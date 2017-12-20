@@ -77,6 +77,12 @@ You can add a target parameter to the link to open in a new tab
 = render 'cookies_eu/consent_banner', link: '/cookies', target: '_blank'
 ```
 
+You can add link for website I don't care about cookies, where you can solve this problem once for all (of course combinable with previous):
+
+```ruby
+= render 'cookies_eu/consent_banner', dont_care: true
+```
+
 If you wish to customize the style of the div the classes are:
 
 ```javascript
