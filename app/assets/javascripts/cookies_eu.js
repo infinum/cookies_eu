@@ -1,12 +1,16 @@
 //= require js.cookie
 'use strict';
 
+var windowIsTurbolinked = 'Turbolinks' in window;
+
 var cookiesEu = {
   init: function() {
     var cookiesEuOKButton = document.querySelector('.js-cookies-eu-ok');
 
     if (cookiesEuOKButton) {
       this.addListener(cookiesEuOKButton);
+      // clear turbolinks cache so cookie banner does not reappear
+      windowIsTurbolinked && window.Turbolinks.clearCache();
     }
   },
 
@@ -28,23 +32,31 @@ var cookiesEu = {
 };
 
 (function() {
+  function eventName(fallback) {
+    return windowIsTurbolinked ? 'turbolinks:load' : fallback
+  }
+
   var isCalled = false;
 
   function isReady() {
-    if (isCalled) return;
+    // return early when cookiesEu.init has been called AND Turbolinks is NOT included
+    // when Turbolinks is included cookiesEu.init has to be called on every page load
+    if (isCalled && !windowIsTurbolinked) {
+      return
+    }
     isCalled = true;
 
     cookiesEu.init();
   }
 
   if (document.addEventListener) {
-    document.addEventListener('DOMContentLoaded', isReady, false);
+    return document.addEventListener(eventName('DOMContentLoaded'), isReady, false);
   }
 
   // Old browsers IE < 9
   if (window.addEventListener) {
-    window.addEventListener('load', isReady, false);
+    window.addEventListener(eventName('load'), isReady, false);
   } else if (window.attachEvent) {
-    window.attachEvent('onload', isReady);
+    window.attachEvent(eventName('onload'), isReady);
   }
 })();

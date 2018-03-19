@@ -87,10 +87,6 @@ If you wish to customize the style of the div the classes are:
 .cookies-eu-link      // link
 ```
 
-## Turbolinks NOT supported
-
-Please use [jquery.turbolinks gem](https://github.com/kossnocorp/jquery.turbolinks)
-
 ## Sample of cookie info (in [haml form](/app/views/cookies_eu/cookies_info.html.haml))
 
 ### COOKIES
