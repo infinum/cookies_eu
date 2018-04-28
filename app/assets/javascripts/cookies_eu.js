@@ -17,6 +17,10 @@ var cookiesEu = {
     } else {
       target.addEventListener('click', this.setCookie, false);
     }
+
+    if(window.Turbolinks) {
+      window.Turbolinks.clearCache();
+    }
   },
 
   setCookie: function() {
@@ -28,21 +32,15 @@ var cookiesEu = {
 };
 
 (function() {
-  var isCalled = false;
 
   function isReady() {
-    if (isCalled) return;
-    isCalled = true;
-
     cookiesEu.init();
   }
 
   if (document.addEventListener) {
     document.addEventListener('DOMContentLoaded', isReady, false);
-  }
-
-  // Old browsers IE < 9
-  if (window.addEventListener) {
+    document.addEventListener('turbolinks:load', isReady, false);
+  } else if (window.addEventListener) {
     window.addEventListener('load', isReady, false);
   } else if (window.attachEvent) {
     window.attachEvent('onload', isReady);
