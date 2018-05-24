@@ -50,7 +50,7 @@ Or manually add in application.js:
 And in application.css:
 
     *= require cookies_eu
-    
+
 Or, if you have application.scss:
 
     @import "cookies_eu";
@@ -79,13 +79,20 @@ You can add a target parameter to the link to open in a new tab
 
 If you wish to customize the style of the div the classes are:
 
-```javascript
-.cookies-eu           // main div
-.cookies-eu-content-holder // content holder
-.cookies-eu-button-holder // button holder
-.cookies-eu-ok        // button
-.cookies-eu-link      // link
+```css
+.cookies-eu                 /* main div */
+.cookies-eu-content-holder  /* content holder */
+.cookies-eu-button-holder   /* button holder */
+.cookies-eu-ok              /* button */
+.cookies-eu-link            /* link */
 ```
+
+## Turbolinks 5+
+
+Is supported out of the box, just require it before cookies_eu
+
+    //= require turbolinks
+    //= require cookies_eu
 
 ## Sample of cookie info (in [haml form](/app/views/cookies_eu/cookies_info.html.haml))
 
