@@ -3,6 +3,9 @@
     <span class="cookies-eu-content-holder"><%= t('cookies_eu.cookies_text') %></span>
     <span class="cookies-eu-button-holder">
     <button class="cookies-eu-ok js-cookies-eu-ok"> <%= t('cookies_eu.ok') %> </button>
+    <% if defined?(dont_care) %>
+      <button href="https://www.i-dont-care-about-cookies.eu/" target="_blank" class="cookies-eu-dont-care"> <%= t('cookies_eu.dont_care') %> </button>
+    <% end %>
     <% if defined?(link).present? %>
       <a href="<%= link %>" class="cookies-eu-link" target="<%= defined?(target).present? ? target : '' %>"> <%= t('cookies_eu.learn_more') %> </a>
     <% end %>
