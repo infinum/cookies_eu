@@ -88,6 +88,10 @@ If you wish to customize the style of the div the classes are:
 .cookies-eu-link            /* link */
 ```
 
+## Cookies used
+
+This gem uses a cookie called **cookie_eu_consented** to track whether a user has accepted the cookie notice and whether it needs to be shown again or not.
+
 ## Turbolinks 5+
 
 Is supported out of the box, just require it before cookies_eu
