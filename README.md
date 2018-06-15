@@ -6,6 +6,7 @@ Gem to add cookie consent to rails application
 
 ## Supported languages
 
+* Albanian
 * Croatian
 * Czech
 * Danish
