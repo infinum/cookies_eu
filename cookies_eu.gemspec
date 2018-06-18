@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["stjepan.hadjic@infinum.hr"]
   spec.description   = %q{Displays a cookie consent}
   spec.summary       = %q{Displays a cookie consent. If you dont disable cokkies in settings, we assume you are ok with us using cookies}
-  spec.homepage      = "https://github.com/infinum/cookies_eu"
+  spec.homepage      = "https://github.com/tscadvantage/cookies_eu.git"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
