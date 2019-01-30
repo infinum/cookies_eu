@@ -24,7 +24,11 @@ var cookiesEu = {
   },
 
   setCookie: function() {
-    Cookies.set('cookie_eu_consented', true, { path: '/', expires: 365 });
+    if (location.protocol === 'https:') {
+      Cookies.set('cookie_eu_consented', true, { path: '/', expires: 365, secure: true });
+    } else {
+      Cookies.set('cookie_eu_consented', true, { path: '/', expires: 365 });
+    }
 
     var container = document.querySelector('.js-cookies-eu');
     container.parentNode.removeChild(container);
