@@ -6,8 +6,8 @@ require 'cookies_eu/version'
 Gem::Specification.new do |spec|
   spec.name          = "cookies_eu"
   spec.version       = CookiesEu::VERSION
-  spec.authors       = ["Stjepan Hadjic"]
-  spec.email         = ["stjepan.hadjic@infinum.hr"]
+  spec.authors       = ["Stjepan Hadjic", "Gabrijel Skoro"]
+  spec.email         = ["stjepan.hadjic@infinum.hr", "gabrijel.skoro@gmail.com"]
   spec.description   = %q{Displays a cookie consent}
   spec.summary       = %q{Displays a cookie consent. If you dont disable cokkies in settings, we assume you are ok with us using cookies}
   spec.homepage      = "https://github.com/infinum/cookies_eu"
