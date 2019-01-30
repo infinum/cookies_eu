@@ -24,7 +24,8 @@ var cookiesEu = {
   },
 
   setCookie: function() {
-    Cookies.set('cookie_eu_consented', true, { path: '/', expires: 365, secure: location.protocol === 'https:' });
+    var isSecure = location.protocol === 'https:';
+    Cookies.set('cookie_eu_consented', true, { path: '/', expires: 365, secure: isSecure });
 
     var container = document.querySelector('.js-cookies-eu');
     container.parentNode.removeChild(container);
