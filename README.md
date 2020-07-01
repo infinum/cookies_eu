@@ -32,6 +32,10 @@ Gem to add cookie consent to rails application
 * Swedish
 * Ukrainian
 
+## Screenshot
+
+![Cookies eu screenshot](https://user-images.githubusercontent.com/2737390/86209657-5a5e8b00-bb73-11ea-91fc-e5ff36af148f.png)
+
 ## Installation
 
 Add this line to your application's Gemfile:
