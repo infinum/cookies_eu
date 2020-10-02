@@ -98,6 +98,8 @@ If you wish to customize the style of the div the classes are:
 .cookies-eu-link            /* link */
 ```
 
+If you wish to customize the HTML, create a folder `cookies_eu`, create a partial `_consent_banner.html.erb` and paste the HTML from [here](app/views/cookies_eu/_consent_banner.html.erb)
+
 ## Cookies used
 
 This gem uses a cookie called **cookie_eu_consented** to track whether a user has accepted the cookie notice and whether it needs to be shown again or not.
