@@ -1,4 +1,4 @@
-//= require js.cookie
+const Cookies = require('./js.cookie');
 'use strict';
 
 var windowIsTurbolinked = 'Turbolinks' in window;
