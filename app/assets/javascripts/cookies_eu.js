@@ -29,6 +29,8 @@ var cookiesEu = {
 
     var container = document.querySelector('.js-cookies-eu');
     container.parentNode.removeChild(container);
+
+    document.dispatchEvent(new CustomEvent('cookies-eu-acknowledged'));
   }
 };
 
