@@ -1,8 +1,8 @@
-$cookies-eu-background-color: #F2F2F2;
-$cookies-eu-border-color: #E4E4E4;
-$cookies-eu-button-background-color: #4D90FE;
-$cookies-eu-button-color: #FFFFFF;
-$cookies-eu-mobile: 'max-width: 767px';
+$cookies-eu-background-color: #F2F2F2 !default;
+$cookies-eu-border-color: #E4E4E4 !default;
+$cookies-eu-button-background-color: #4D90FE !default;
+$cookies-eu-button-color: #FFFFFF !default;
+$cookies-eu-mobile: 'max-width: 767px' !default;
 
 .cookies-eu {
   line-height: 40px;
@@ -55,5 +55,36 @@ $cookies-eu-mobile: 'max-width: 767px';
       outline: none;
       background-color: $cookies-eu-button-background-color;
     }
+  }
+}
+.cookies-eu-customize {
+	width: 100%;
+  padding: 0 20px;
+	background-color: $cookies-eu-background-color;
+	height: 100%;
+	position: fixed;
+	display: block;
+	bottom: 0px;
+	right: 0px;
+	z-index: 1000;
+
+  .cookies-eu-ok {
+    font-size: 11px;
+    font-weight: bold;
+
+    line-height: 20px;
+
+    min-width: 26px;
+    margin-right: 5px;
+    padding: 2px 11px;
+
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+
+    color: $cookies-eu-button-color;
+    border: 0;
+    outline: none;
+    background-color: $cookies-eu-button-background-color;
   }
 }

@@ -1,0 +1,27 @@
+<div class="cookies-eu-customize" style="display:none" <%= "dir=rtl" if I18n.exists?('cookies_eu.direction', locale) && t("cookies_eu.direction") == "rtl"  %>>
+  <form>
+    <h2><%= t('cookies_eu.customize_header') %></h2>
+    <p><%= t('cookies_eu.customize_intro_html', default: t('cookies_eu.customize_intro')) %></p>
+
+    <div class="cookies-eu-customize-checkboxes">
+      <label for="cookies-eu-minimal"><%= t('cookies_eu.minimal_label') %></label>
+      <input type="checkbox" id="cookies-eu-minimal" name="minimal" value="minimal" checked disabled>
+      <p><%= t('cookies_eu.minimal_intro_html', default: t('cookies_eu.minimal_intro')) %></p>
+
+      <% if defined?(analytics) and analytics %>
+        <label for="cookies-eu-analytics"><%= t('cookies_eu.analytics_label') %></label>
+        <input type="checkbox" id="cookies-eu-analytics" name="analytics" value="analytics">
+        <p><%= t('cookies_eu.analytics_intro_html', default: t('cookies_eu.analytics_intro')) %></p>
+      <% end %>
+
+      <% if defined?(advertisment) and advertisement %>
+        <label for="cookies-eu-advertisement"><%= t('cookies_eu.advertisement_label') %></label>
+        <input type="checkbox" id="cookies-eu-advertisement" name="advertisement" value="advertisement">
+        <p><%= t('cookies_eu.advertisement_intro_html', default: t('cookies_eu.advertisement_intro')) %></p>
+      <% end %>
+    </div>
+    <div class="cookies-eu-customize-button-holder">
+      <button class="cookies-eu-ok js-cookies-eu-ok" type="button"><%= t('cookies_eu.customize_submit') %></button>
+    </div>
+  </form>
+</div>
